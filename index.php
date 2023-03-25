@@ -30,7 +30,7 @@
                     <div class="col-xl-5">
                         <div class="text-center text-muted mb-2">
                             <div class="pb-3">
-                                <a href="vertical.php">
+                                <a href="home.php">
                                     <span class="logo-lg">
                                         <img src="assets/images/logo-sm.svg" alt="" height="24"> <span class="logo-txt">Vuesy</span>
                                     </span>
@@ -51,7 +51,7 @@
                                         <h5 class="mb-0">Register Account</h5>
                                         <p class="text-muted mt-2">Get your free Vuesy account now.</p>
                                     </div>
-                                    <form action ="vertical.php" class="mt-4 pt-2">
+                                    <form action ="home.php" class="mt-4 pt-2">
                                         <div class="form-floating form-floating-custom mb-3">
                                             <input type="email" class="form-control" id="input-email" placeholder="Enter Email" required="">
                                             <div class="invalid-feedback">
