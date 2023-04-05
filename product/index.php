@@ -13,7 +13,7 @@ include_once("../db.php");
 					<div class="row align-items-center">
 						<div class="col">
 							<div class="mt-5">
-								<h4 class="card-title float-left mt-2">Usuarios</h4> <a href="user/add.php" class="btn btn-primary float-right veiwbutton">Add Usuarios</a> </div>
+								<h4 class="card-title float-left mt-2">Produtos</h4> <a href="product/add.php" class="btn btn-primary float-right veiwbutton">Add Produtos</a> </div>
 						</div>
 					</div>
 				</div>
@@ -26,17 +26,18 @@ include_once("../db.php");
 									<thead>
 									<tr>
 									<th> # </th>
+									<th> Cod</th>
 									<th> Nome </th>
-									<th> Contacto </th>
-									<th> E-mail</th>
-									<th> Username </th>
+									
+									<th> Preço</th>
+								
 									<th> Acção </th>
 									</tr> 
 								</thead>
 										
 										<?php 
 							 // faz a seleção do dados na Tabela	
-								$data = mysqli_query($conectar, "SELECT * FROM users");
+								$data = mysqli_query($conectar, "SELECT * FROM products");
 							 // lista os dados
 								while($value = mysqli_fetch_array($data)){
 									
@@ -53,15 +54,15 @@ include_once("../db.php");
                     <tbody>
 					
                           <td> <?php echo $value['id'] ?></td>
+                          <td> <?php echo $value['cod'] ?> </td>
                           <td> <?php echo $value['name'] ?> </td>
-                          <td> <?php echo $value['contact'] ?> </td>
-                          <td> <?php echo $value['email'] ?></td>
-                          <td> <?php echo $value['username'] ?> </td>
+                          <td> <?php echo $value['price'] ?></td>
+                          
 						  
 						  <!--  redireciona o botao editar e apagar para os repectivos ficheiros  -->
 						  <td>
 						  <a class="btn btn-sm btn-info " href="edit.php?id=<?php echo $value['id']; ?>"> Editar </a> 
-							<a class="btn btn-sm btn-danger " href="user/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
+							<a class="btn btn-sm btn-danger " href="product/deleteQuery.php?id=<?php echo $value['id']; ?>">Apagar</a>
 						  </td>
 					</tr>
 						<?php  }?>	

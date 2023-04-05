@@ -41,7 +41,7 @@ $base_user = 'http://localhost/marcelo/';
                 <div class="d-flex">
                    <!-- LOGO -->
                    <div class="navbar-brand-box">
-                    <a href="index.html" class="logo logo-dark">
+                    <a href="home.php" class="logo logo-dark">
                         <span class="logo-sm">
                             <img src="assets/images/logo-sm.svg" alt="" height="26">
                         </span>
@@ -50,7 +50,7 @@ $base_user = 'http://localhost/marcelo/';
                         </span>
                     </a>
 
-                    <a href="index.html" class="logo logo-light">
+                    <a href="home.php" class="logo logo-light">
                         <span class="logo-sm">
                             <img src="assets/images/logo-sm.svg" alt="" height="26">
                         </span>
@@ -61,7 +61,7 @@ $base_user = 'http://localhost/marcelo/';
 
                 </div>
 
-                    <button type="button" class="btn btn-sm px-3 header-item vertical-menu-btn noti-icon">
+                    <button  type="submit" class="btn btn-sm px-3 header-item vertical-menu-btn noti-icon">
                         <i class="fa fa-fw fa-bars font-size-16"></i>
                     </button>
 
@@ -348,7 +348,7 @@ $base_user = 'http://localhost/marcelo/';
 
              <!-- LOGO -->
              <div class="navbar-brand-box">
-                <a href="index.html" class="logo logo-dark">
+                <a href="home.php" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="assets/images/logo-sm.svg" alt="" height="26">
                     </span>
@@ -357,7 +357,7 @@ $base_user = 'http://localhost/marcelo/';
                     </span>
                 </a>
 
-                <a href="index.html" class="logo logo-light">
+                <a href="home.php" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="assets/images/logo-sm.svg" alt="" height="26">
                     </span>
@@ -367,7 +367,7 @@ $base_user = 'http://localhost/marcelo/';
                 </a>
             </div>
 
-            <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+            <button type="submit" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
                 <i class="fa fa-fw fa-bars"></i>
             </button>
 
@@ -380,7 +380,7 @@ $base_user = 'http://localhost/marcelo/';
                         <li class="menu-title" data-key="t-menu">Menu</li>
 
                         <li>
-                            <a href="vertical.php">
+                            <a href="home.php">
                                 <i class="bx bx-home-circle nav-icon"></i>
                                 <span class="menu-item" data-key="t-dashboard">Dashboard</span>
                             </a>
@@ -396,10 +396,10 @@ $base_user = 'http://localhost/marcelo/';
                         </li>
 
                         <li>
-                            <a href="apps-chat.html">
+                            <a href="product/index.php">
                                 <i class="bx bx-chat nav-icon"></i>
-                                <span class="menu-item" data-key="t-chat">Chat</span>
-                                <span class="badge rounded-pill badge-soft-danger" data-key="t-hot">Hot</span>
+                                <span class="menu-item" data-key="t-chat">Producto</span>
+                                
                             </a>
                         </li>
 
@@ -787,20 +787,7 @@ $base_user = 'http://localhost/marcelo/';
             </div>
             <!-- End Page-content -->
 
-            <footer class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <script>document.write(new Date().getFullYear())</script> &copy; Vuesy.
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="text-sm-end d-none d-sm-block">
-                                Crafted with <i class="mdi mdi-heart text-danger"></i> by <a href="https://1.envato.market/themesdesign" target="_blank">Themesdesign</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+           
         </div>
         <!-- end main content-->
 
